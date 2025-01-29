@@ -1,0 +1,11 @@
+#+TITLE: Soluciones de los problemas de Exercitium con Common Lisp
+
+Este repositorio contiene las soluciones de los problemas de [[https://www.glc.us.es/~jalonso/exercitium/][Exercitium]]
+con Common Lisp.
+
+En el blog, para cada problema, se publican distintas soluciones tanto
+en Haskell como en Python y en Common Lisp para poder compararlas.
+
+* Ejercicios del 2025
+
+** Enero de 2025
