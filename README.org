@@ -1,6 +1,6 @@
 #+TITLE: Soluciones de los problemas de Exercitium con Common Lisp
 
-Este repositorio contiene las soluciones de los problemas de [[https://www.glc.us.es/~jalonso/exercitium/][Exercitium]]
+Este repositorio contiene las soluciones de los problemas de [[https://jaalonso.github.io/exercitium][Exercitium]]
 con Common Lisp.
 
 En el blog, para cada problema, se publican distintas soluciones tanto
