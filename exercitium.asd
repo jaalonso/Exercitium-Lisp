@@ -3,7 +3,8 @@
   :depends-on (:fiveam)
   :components ((:module "src"
                 :components ((:file "suma")
-                             (:file "longitud")))))
+                             (:file "longitud")
+                             (:file "ordenados-por-maximo")))))
 
 (defsystem :exercitium/tests
   :depends-on (:exercitium)

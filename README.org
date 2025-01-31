@@ -9,3 +9,4 @@ en Haskell como en Python y en Common Lisp para poder compararlas.
 * Ejercicios del 2025
 
 ** Enero de 2025
++ 29 [[./src/ordenados-por-maximo.lisp][Ordenación por el máximo]].
