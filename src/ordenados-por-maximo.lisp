@@ -14,12 +14,11 @@
 ;;;    ((6 3) (6 1) (6 2) (0 8) (8 1) (8 2) (9))
 ;;; ---------------------------------------------------------------------
 
-(ql:quickload '("alexandria"
-                "fiveam")
-              :silent t)
+(ql:quickload "fiveam" :silent t)
 
 (defpackage :ordenados-por-maximo
-  (:use :cl :alexandria :fiveam))
+  (:use :cl
+        :fiveam))
 
 (in-package :ordenados-por-maximo)
 
@@ -121,46 +120,11 @@
                       collect i)))
 
 ;;; La comparación es
-;;;    MAXIMO> (time (length (ordenados-por-maximo1 (ejemplo 6000))))
-;;;    Evaluation took:
-;;;      0.807 seconds of real time
-;;;      0.808579 seconds of total run time (0.601355 user, 0.207224 system)
-;;;      [ Run times consist of 0.592 seconds GC time, and 0.217 seconds non-GC time. ]
-;;;      100.25% CPU
-;;;      1,608,804,177 processor cycles
-;;;      288,620,640 bytes consed
-;;;
-;;;    6000 (13 bits, #x1770)
-;;;
-;;;    MAXIMO> (time (length (ordenados-por-maximo2 (ejemplo 6000))))
-;;;    Evaluation took:
-;;;      0.739 seconds of real time
-;;;      0.741498 seconds of total run time (0.649615 user, 0.091883 system)
-;;;      [ Run times consist of 0.288 seconds GC time, and 0.454 seconds non-GC time. ]
-;;;      100.27% CPU
-;;;      1,474,304,175 processor cycles
-;;;      288,357,248 bytes consed
-;;;
-;;;    6000 (13 bits, #x1770)
-;;;
-;;;    MAXIMO> (time (length (ordenados-por-maximo3 (ejemplo 6000))))
-;;;    Evaluation took:
-;;;      0.821 seconds of real time
-;;;      0.822926 seconds of total run time (0.679065 user, 0.143861 system)
-;;;      [ Run times consist of 0.412 seconds GC time, and 0.411 seconds non-GC time. ]
-;;;      100.24% CPU
-;;;      1,636,125,125 processor cycles
-;;;      288,374,832 bytes consed
-;;;
-;;;    6000 (13 bits, #x1770)
-;;;
-;;;    MAXIMO> (time (length (ordenados-por-maximo4 (ejemplo 6000))))
-;;;    Evaluation took:
-;;;      0.738 seconds of real time
-;;;      0.740806 seconds of total run time (0.570585 user, 0.170221 system)
-;;;      [ Run times consist of 0.444 seconds GC time, and 0.297 seconds non-GC time. ]
-;;;      100.41% CPU
-;;;      1,472,495,301 processor cycles
-;;;      288,522,336 bytes consed
-;;;
-;;;    6000 (13 bits, #x1770)
+;;;    > (time (length (ordenados-por-maximo1 (ejemplo 6000))))
+;;;    0.807 seconds of real time
+;;;    > (time (length (ordenados-por-maximo2 (ejemplo 6000))))
+;;;    0.739 seconds of real time
+;;;    > (time (length (ordenados-por-maximo3 (ejemplo 6000))))
+;;;    0.821 seconds of real time
+;;;    > (time (length (ordenados-por-maximo4 (ejemplo 6000))))
+;;;    0.738 seconds of real time

@@ -10,3 +10,8 @@ en Haskell como en Python y en Common Lisp para poder compararlas.
 
 ** Enero de 2025
 + 29 [[./src/ordenados-por-maximo.lisp][Ordenación por el máximo]].
+
+** Febrero 2025
++ 03 [[./src/bandera-tricolor.lisp][La bandera tricolor]].
++ 04 [[./src/posiciones-diagonales-principales.lisp][Posiciones de las diagonales principales]].
++ 06 [[./src/diagonales-principales.lisp][Diagonales principales de una matriz]].

@@ -7,10 +7,9 @@
 (setf fiveam:*on-failure* :debug)
 
 (defmacro verifica-uno (archivo)
-  `(let* ((src-dir (uiop:merge-pathnames* #P"../src/" (uiop:getcwd)))
-          (archivo-path (uiop:merge-pathnames* (make-pathname :name ,archivo :type "lisp") src-dir)))
-     (load archivo-path)
-     (let ((pkg (intern (string-upcase ,archivo))))
+  `(let* ((pkg-name (string-upcase ,archivo))
+          (pkg (find-package pkg-name)))
+     (when pkg
        (funcall (symbol-function (intern "VERIFICA" pkg))))))
 
 (defun verifica-todos (archivos)
@@ -21,4 +20,8 @@
   '("suma"
     "longitud"
     "fibonacci"
-    "ordenados-por-maximo"))
+    "ordenados-por-maximo"
+    "bandera-tricolor"
+    "posiciones-diagonales-principales"
+    "diagonales-principales"
+    ))

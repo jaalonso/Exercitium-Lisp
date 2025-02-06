@@ -4,7 +4,11 @@
   :components ((:module "src"
                 :components ((:file "suma")
                              (:file "longitud")
-                             (:file "ordenados-por-maximo")))))
+                             (:file "ordenados-por-maximo")
+                             (:file "bandera-tricolor")
+                             (:file "posiciones-diagonales-principales")
+                             (:file "diagonales-principales")
+                             ))))
 
 (defsystem :exercitium/tests
   :depends-on (:exercitium)
