@@ -8,6 +8,8 @@
                              (:file "bandera-tricolor")
                              (:file "posiciones-diagonales-principales")
                              (:file "diagonales-principales")
+                             (:file "anagramas")
+                             (:file "primos-equidistantes")
                              ))))
 
 (defsystem :exercitium/tests

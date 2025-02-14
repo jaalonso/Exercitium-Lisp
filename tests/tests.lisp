@@ -24,4 +24,6 @@
     "bandera-tricolor"
     "posiciones-diagonales-principales"
     "diagonales-principales"
+    "anagramas"
+    "primos-equidistantes"
     ))

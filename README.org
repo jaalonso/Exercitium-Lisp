@@ -15,3 +15,5 @@ en Haskell como en Python y en Common Lisp para poder compararlas.
 + 03 [[./src/bandera-tricolor.lisp][La bandera tricolor]].
 + 04 [[./src/posiciones-diagonales-principales.lisp][Posiciones de las diagonales principales]].
 + 06 [[./src/diagonales-principales.lisp][Diagonales principales de una matriz]].
++ 10 [[./src/anagramas.lisp][Anagramas]].
++ 14 [[./src/primos-equidistantes.lisp][Primos equidistantes]].
