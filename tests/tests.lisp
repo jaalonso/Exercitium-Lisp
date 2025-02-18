@@ -27,4 +27,5 @@
     "anagramas"
     "primos-equidistantes"
     "matriz-toeplitz"
+    "maximos-locales"
     ))

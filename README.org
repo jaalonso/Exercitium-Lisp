@@ -18,3 +18,4 @@ en Haskell como en Python y en Common Lisp para poder compararlas.
 + 10 [[./src/anagramas.lisp][Anagramas]].
 + 14 [[./src/primos-equidistantes.lisp][Primos equidistantes]].
 + 18 [[./src/matriz-Toeplitz.lisp][Matrices de Toeplitz]].
++ 19 [[./src/maximos-locales.lisp][Máximos locales]].

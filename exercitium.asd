@@ -11,6 +11,7 @@
                              (:file "anagramas")
                              (:file "primos-equidistantes")
                              (:file "matriz-toeplitz")
+                             (:file "maximos-locales")
                              ))))
 
 (defsystem :exercitium/tests
