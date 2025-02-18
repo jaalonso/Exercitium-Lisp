@@ -26,4 +26,5 @@
     "diagonales-principales"
     "anagramas"
     "primos-equidistantes"
+    "matriz-toeplitz"
     ))

@@ -10,6 +10,7 @@
                              (:file "diagonales-principales")
                              (:file "anagramas")
                              (:file "primos-equidistantes")
+                             (:file "matriz-toeplitz")
                              ))))
 
 (defsystem :exercitium/tests

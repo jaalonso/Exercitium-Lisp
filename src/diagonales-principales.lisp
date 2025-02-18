@@ -123,7 +123,6 @@
 ;;; La verificación es
 ;;;    (diagonales-principales::verifica)
 
-
 ;;; Equivalencia de las definiciones
 ;;; ================================
 
