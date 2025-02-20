@@ -1,6 +1,7 @@
 (defsystem :exercitium
   :serial t
-  :depends-on (:fiveam)
+  :depends-on (:fiveam
+               :serapeum)
   :components ((:module "src"
                 :components ((:file "suma")
                              (:file "longitud")
@@ -12,6 +13,7 @@
                              (:file "primos-equidistantes")
                              (:file "matriz-toeplitz")
                              (:file "maximos-locales")
+                             (:file "lista-cuadrada")
                              ))))
 
 (defsystem :exercitium/tests
