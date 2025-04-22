@@ -14,6 +14,7 @@
                              (:file "matriz-toeplitz")
                              (:file "maximos-locales")
                              (:file "lista-cuadrada")
+                             (:file "cuadrado-mas-cercano")
                              ))))
 
 (defsystem :exercitium/tests

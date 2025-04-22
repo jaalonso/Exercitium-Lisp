@@ -29,4 +29,5 @@
     "matriz-toeplitz"
     "maximos-locales"
     "lista-cuadrada"
+    "cuadrado-mas-cercano"
     ))

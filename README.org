@@ -20,3 +20,7 @@ en Haskell como en Python y en Common Lisp para poder compararlas.
 + 18 [[./src/matriz-Toeplitz.lisp][Matrices de Toeplitz]].
 + 19 [[./src/maximos-locales.lisp][Máximos locales]].
 + 20 [[./src/lista-cuadrada.lisp][Lista cuadrada]].
+
+** Abril 2025
++ 22 [[./src/cuadrado-mas-cercano.hs][Cuadrado más cercano]].
++ 23 [[./src/suma-de-cadenas.lisp][Suma de cadenas]].
