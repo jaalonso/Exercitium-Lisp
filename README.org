@@ -24,3 +24,4 @@ en Haskell como en Python y en Common Lisp para poder compararlas.
 ** Abril 2025
 + 22 [[./src/cuadrado-mas-cercano.hs][Cuadrado más cercano]].
 + 23 [[./src/suma-de-cadenas.lisp][Suma de cadenas]].
++ 24 [[./src/sistema-factoradico-de-numeracion.lisp][Sistema factorádico de numeración]].

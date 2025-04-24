@@ -15,6 +15,8 @@
                              (:file "maximos-locales")
                              (:file "lista-cuadrada")
                              (:file "cuadrado-mas-cercano")
+                             (:file "suma-de-cadenas")
+                             (:file "sistema-factoradico-de-numeracion")
                              ))))
 
 (defsystem :exercitium/tests

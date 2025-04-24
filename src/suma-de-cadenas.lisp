@@ -5,20 +5,18 @@
 ;;; ---------------------------------------------------------------------
 
 ;;; ---------------------------------------------------------------------
-;;; Definir la función
-;;;    suma-cadenas :: String -> String -> String
-;;; tal que (suma-cadenas xs ys) es la cadena formada por el número entero
-;;; que es la suma de los números enteros cuyas cadenas que lo
-;;; representan son xs e ys; además, se supone que la cadena vacía
-;;; representa al cero. Por ejemplo,
-;;;    suma-cadenas "2"   "6"  == "8"
-;;;    suma-cadenas "14"  "2"  == "16"
-;;;    suma-cadenas "14"  "-5" == "9"
-;;;    suma-cadenas "-14" "-5" == "-19"
-;;;    suma-cadenas "5"   "-5" == "0"
-;;;    suma-cadenas ""    "5"  == "5"
-;;;    suma-cadenas "6"   ""   == "6"
-;;;    suma-cadenas ""    ""   == "0"
+;;; Definir la función suma-cadenas tal que (suma-cadenas xs ys) es la
+;;; cadena formada por el número entero que es la suma de los números
+;;; enteros cuyas cadenas que lo representan son xs e ys; además, se
+;;; supone que la cadena vacía representa al cero. Por ejemplo,
+;;;    (suma-cadenas "2"   "6")  == "8"
+;;;    (suma-cadenas "14"  "2")  == "16"
+;;;    (suma-cadenas "14"  "-5") == "9"
+;;;    (suma-cadenas "-14" "-5") == "-19"
+;;;    (suma-cadenas "5"   "-5") == "0"
+;;;    (suma-cadenas ""    "5")  == "5"
+;;;    (suma-cadenas "6"   "")   == "6"
+;;;    (suma-cadenas ""    "")   == "0"
 ;;; ---------------------------------------------------------------------
 
 (ql:quickload "fiveam" :silent t)
@@ -63,7 +61,7 @@
   (write-to-string
    (reduce #'+
            (mapcar #'parse-integer
-                   (remove-if #'null (list xs ys)))
+                   (remove-if (lambda (zs) (string= zs "")) (list xs ys)))
            :initial-value 0)))
 
 ;;; Verificación
@@ -78,7 +76,7 @@
           (is (equal (funcall suma-cadenas "5"   "-5") "0"))
           (is (equal (funcall suma-cadenas ""    "5")  "5"))
           (is (equal (funcall suma-cadenas "6"   "")   "6"))
-          (is (equal (funcall suma-cadenas ""    "")   "0")))
+          (is (equal (funcall suma-cadenas ""    "")   "0")) )
         '(suma-cadenas1
           suma-cadenas2
           suma-cadenas3)))

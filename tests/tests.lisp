@@ -30,4 +30,6 @@
     "maximos-locales"
     "lista-cuadrada"
     "cuadrado-mas-cercano"
+    "suma-de-cadenas"
+    "sistema-factoradico-de-numeracion"
     ))

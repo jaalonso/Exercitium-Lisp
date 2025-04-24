@@ -57,11 +57,17 @@
 (defun enteros (&optional (n 1))
   (cons-lp n (enteros (1+ n))))
 
-;;; (fibs) es la lista de lon números de Fibonacci. Por ejemplo,
+;;; (fibs) es la lista de los números de Fibonacci. Por ejemplo,
 ;;;    > (take 10 (fibs))
 ;;;    (0 1 1 2 3 5 8 13 21 34)
 (defun fibs (&optional (a 0) (b 1))
   (cons-lp a (fibs b (+ a b))))
+
+;;; (factoriales) es la lista de los factoriales. Por ejemplo,
+;;;    > (take 10 (factoriales))
+;;;    (1 1 2 6 24 120 720 5040 40320 362880)
+(defun factoriales (&optional (n 0) (f 1))
+  (cons-lp f (factoriales (1+ n) (* (1+ n) f))))
 
 ;;; (take-while p s) es la lista de los primeros elementos de la lista
 ;;; infinita s que verifica el predicado p. Por ejemplo,
