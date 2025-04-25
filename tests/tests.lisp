@@ -32,4 +32,5 @@
     "cuadrado-mas-cercano"
     "suma-de-cadenas"
     "sistema-factoradico-de-numeracion"
+    "duplicacion-de-cada-elemento"
     ))

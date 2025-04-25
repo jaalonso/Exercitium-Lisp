@@ -17,6 +17,7 @@
                              (:file "cuadrado-mas-cercano")
                              (:file "suma-de-cadenas")
                              (:file "sistema-factoradico-de-numeracion")
+                             (:file "duplicacion-de-cada-elemento")
                              ))))
 
 (defsystem :exercitium/tests
