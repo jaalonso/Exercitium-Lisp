@@ -33,4 +33,5 @@
     "suma-de-cadenas"
     "sistema-factoradico-de-numeracion"
     "duplicacion-de-cada-elemento"
+    "conjunto-de-divisores"
     ))

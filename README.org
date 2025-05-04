@@ -26,3 +26,8 @@ en Haskell como en Python y en Common Lisp para poder compararlas.
 + 23 [[./src/suma-de-cadenas.lisp][Suma de cadenas]].
 + 24 [[./src/sistema-factoradico-de-numeracion.lisp][Sistema factorádico de numeración]].
 + 25 [[./src/duplicacion-de-cada-elemento.lisp][Duplicación de cada elemento]].
+
+** Mayo 2025
++ ?? [[./src/conjunto-de-divisores.lisp][Conjunto de divisores]].
++ ?? [[./src/suma-de-divisores.lisp][Suma de divisores]].
++ ?? [[./src/numeros-duffinianos.lisp][Números duffinianos]].

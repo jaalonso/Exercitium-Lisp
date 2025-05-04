@@ -1,7 +1,9 @@
 (defsystem :exercitium
   :serial t
   :depends-on (:fiveam
-               :serapeum)
+               :cl-factoring
+               :serapeum
+               :alexandria)
   :components ((:module "src"
                 :components ((:file "suma")
                              (:file "longitud")
@@ -18,6 +20,7 @@
                              (:file "suma-de-cadenas")
                              (:file "sistema-factoradico-de-numeracion")
                              (:file "duplicacion-de-cada-elemento")
+                             (:file "conjunto-de-divisores")
                              ))))
 
 (defsystem :exercitium/tests

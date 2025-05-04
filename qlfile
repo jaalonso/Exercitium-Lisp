@@ -1,3 +1,5 @@
-ql fiveam
 ql alexandria
+ql cl-factoring
+ql fiveam
+ql lparallel
 ql serapeum
